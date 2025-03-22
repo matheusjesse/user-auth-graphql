@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Usando a versão ES6 do JavaScript
+    "module": "commonjs",                      // Módulos CommonJS (como o Node.js)
+    "esModuleInterop": true,                   // Permitir interoperabilidade com módulos ES6
+    "skipLibCheck": true,                      // Ignorar checagem de tipo das bibliotecas
+    "forceConsistentCasingInFileNames": true,  // Forçar consistência de maiúsculas/minúsculas
+    "outDir": "./dist",                        // Pasta onde o código transpilado será salvo
+    "rootDir": "./src",                        // Diretório de origem do código TypeScript
+    "strict": true                             // Habilitar modo estrito para uma verificação de tipos mais rigorosa
+  },
+  "include": ["src/**/*"],                     // Incluir todos os arquivos na pasta src
+  "exclude": ["node_modules"]                  // Excluir a pasta node_modules
+}
